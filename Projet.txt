@@ -1,0 +1,44 @@
+PROJET APP. IMIE :
+Besoins :
+
+- Planning de réservation des salles de cours.
+- To do list (une pour les formateurs et une pour les apprenants).
+- Remplacement des formateurs qui ajoutent leurs disponibilités.
+- Base de données avec les compétences des formateurs pour faire le tri lors des absences.
+- Affichage des statuts (online/offline).
+- Contact.
+
+Limites et problèmes :
+Adapter Androïd et IOS.
+Stockage des données.
+Ergonomie, limiter la charge sur l'interface.
+
+Cahier des charges
+
+To do list
+
+La création de deux To Do List permettra aux formateurs de lister les tâches à faire, en cours (avec une barre de pourcentage pour indiquer l'avancée) et terminées. 
+Cette To Do List ne sera pas visibles par les apprenants.
+La même chose sera donc effectuée pour les apprenants, la différence notable est que les formateurs pourront voir les avancées.
+
+Base de données avec les compétences des formateurs.
+Cette base de données recensera le profil créé par un utilisateur formateur qui aura coché ses compétences dans la liste concernée.
+
+A la suite de cela, son nom sera donc affiché dans le planning de la réservation des salles en tant que formateur apte à remplacer un autre formateur absent par un 
+système de tri et avec l'accord du remplaçant.
+Le nom du remplaçant sera inscrit sur le planning.
+
+Affichage du statut
+
+Si l'un des formateurs est en ligne sur l'application, son profil sera « online » sinon il sera « offline ».  Grâce à cela, un apprenant, qui aura un compte utilisateur 
+(donc visible par le formateur) pour envoyer un message en appuyant sur le statut.
+
+Accueil
+
+Interface graphique, avec sélection du campus affilié l'utilisateur. Reprenant le code couleur des campus de l'imie, le campus sélectionné renverra l'utilisateur sur 
+une autre page.
+
+Technologie utilisée :
+
+PHP (fonctionne avec une base de données), HTML, CSS (web)
+SQL (base de données)
