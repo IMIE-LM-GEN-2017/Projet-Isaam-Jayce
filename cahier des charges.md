@@ -3,9 +3,9 @@
 ## 1) Qu'est ce ?
     - Une application permettant d'afficher/modifier son planning.
     - Réserver des salles au sein de l'entreprise.
-    - Remplacer le personnel absent.
+    - Affichage des présences.
     - Regarder l'avancée des projets.
-    - Contacter en temps réel avec le personnel
+    - Contacter avec le personnel.
     
 ## 2) Pour qui ?
     - Création pour l'IMIE.
@@ -15,10 +15,9 @@
 ## 3) Pourquoi ?
     - Le fait d'être mobile fait gagner du temps sur la gestion de son planning qui est lié à l'entreprise.
     - Eviter le problème des salles déjà prise.
-    - Pouvoir travailler avec des remplaçants.
-    - Afficher le statut de l'employé : "Présent ; En retard ; Absent"
+    - Afficher la présence des élèves.
     - Meilleur visuel sur l'avancée des projets avec une barre de progression, voir les projets de la TO DO LIST.
-    - Contact dans le personnel avec disponibilité "Online ; Offline"
+    - Contact dans le personnel avec disponibilités "Online ; Offline".
 
 ## Limites et problèmes :
     - Adapter Androïd et IOS.
@@ -33,7 +32,7 @@
 
 ## Accueil
 
-L'interface de l'accueil reprend le code couleur des campus de l'imie. Il suffit de toucher l'onglet de son campus pour passer aux identifiants (donnés par l'IMIE).
+L'interface de l'accueil reprend le code couleur des campus de l'IMIE. Il suffit de toucher l'onglet de son campus pour passer aux identifiants (donnés par l'IMIE).
 
 ## To do list
 
@@ -49,13 +48,14 @@ Grâce à l'application, le planning peut être modifié suivant les paramètres suiv
     
     - Choix de la salle (liste de salles disponibles)
     - Choix de la date (Entrer une date puis affiche les heures disponible)
-    - Choix de la disponibilité (Présent; En retard; Absent)
 
 ## Contact
 
     - Le profil de la personne visitée sera «online» sinon il sera «offline». 
     - Un apprenant, qui aura un compte utilisateur (donc visible par le formateur), pourra envoyer un message.
 
-## Compétences des remplaçants
+## Appel
 
-Une base de données recensera le profil créé par un utilisateur formateur qui aura coché ses compétences dans la liste concernée.
+    - Liste des élèves de la classe
+    - Afficher les présences
+    - Envoie de la liste

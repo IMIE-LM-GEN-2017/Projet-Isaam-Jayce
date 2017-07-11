@@ -1,11 +1,7 @@
 # Gestoinnaire de planning et de projet pour mobile (GPPM)
 
-## 1) Application
-	- Localisation
-	- User
-	- Menu
-
-## 2) Localisation
+## 1) Localisation
+	- id
 	- Nantes
 	- Angers
 	- Rennes
@@ -15,44 +11,61 @@
 	- Paris
 	(Mène à la page des identifiants)
 
-## 3) User
+## 2) User
+	- Localisation
+	- Id
 	- Identifiant (Donné par l'entreprise)
 	- Password (Donné par l'entreprise)
 	- Nom, Prénom
 	- Numéro de téléphone
 	- Classe où il se trouve
 	- Monsieur/Madame
+	- Nom de la compétence
+	- Niveau de la compétence
 	- Statut formateur/Elève
-	(Mène au menu principal)
 
-## 4) Menu
-	- Planning
-	- To Do List
-	- Contact
-	- Statut
-
-## 5) Planning
-	- Calendrier
-	- Nom d'événement
-	- Date de début et de fin
+## 3) Planning
+	- Date de début de l'événement
+	- Date de fin de l'événement
 	- Horaires de l'événement
 	- Le nom de la salle
 	- Nom du formateur
 	- Classe concernée par le cours
+	- Statut de la personne (planning)
+	- Intitulé du cours
+	- id
 
-## 6) Liste des compétences
-	- Nom de la compétence
-	- Niveau de la compétence
+## 4) Salles
+	- Nom de la salle
+	- id
 
-## 7) To Do List
-	- 1 To Do List pour les formateurs
-	- 1 To Do List pour les élèves
-	- Noms des projets "à faire", "en cours" et "terminés"
-	- Avancée des projets "à faire", "en cours" et "terminés"
+## 5) Classe
+	- Date de début des cours
+	- Date de fin des cours
+	- id
 
-## 8) Contact
-	- Nom, Prénom
+## 6) To Do List
+	- Nom de la TDL
+	- id
 
-## 9) Statut
-	- Du planning
-	- Du contact
+## 7) Tâche
+	- Date de fin de l'événement
+	- Description de la tâche
+	- id
+
+## 8) Statut TDL
+	- Nom des projets "à faire"
+	- Nom des projets "en cours"
+	- Nom des projets "terminés"
+	- id
+
+## 9) Liste d'appel
+	- Nom, prénom
+	- Présent
+	- Horaires du cours
+	- Classe concernée par le cours
+	- Nom du formateur
+	- id
+
+## 10) Traitement des présences
+	-id
