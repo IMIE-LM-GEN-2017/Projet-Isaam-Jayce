@@ -1,11 +1,36 @@
-body {background-color: #C0C0C0;}
+body {background-color: #C0C0C0; font-family: arial;}
 
-.index {}
+.index {text-align: center; margin-top: 150px; margin-left: 750px}
+.index li {font-size: 50px; text-align: center; width: 30%; margin: 8px 0px 25px 0px; box-sizing: border-box; border: 1px solid; color: white; border-color: black; display: block; list-style-type: none; overflow: hidden; }
+.index li a {text-decoration: none; color: white; text-align: center;}
+.index li a:active {color: black;}
+.c1 {background-color: red;}
+.c2 {background-color: blue;}
+.c3 {background-color: green;}
+.c4 {background-color: yellow;}
+.c5 {background-color: purple;}
+.c6 {background-color: brown}
+.c7 {background-color: orange}
+
 .menu {}
+
+
 .users {}
+
+
 .tdl {}
+
+
 .presence {}
+
+
 .planning {}
+
+
 .encours {}
+
+
 .contact {}
+
+
 .afaire {}
