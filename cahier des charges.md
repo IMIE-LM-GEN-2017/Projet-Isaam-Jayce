@@ -1,61 +1,77 @@
 # Cahier des charges pour "GPPM" (Gestionnaire de Projets et de Plannings pour Mobile)
 
 ## 1) Qu'est ce ?
-    - Une application permettant d'afficher/modifier son planning.
-    - Réserver des salles au sein de l'entreprise.
-    - Affichage des présences.
-    - Regarder l'avancée des projets.
-    - Contacter avec le personnel.
-    
+  - Une application permettant d'afficher/modifier son planning.
+  - RÃ©server des salles au sein de l'entreprise.
+  - Affichage des prÃ©sences.
+  - Regarder l'avancÃ©e des projets.
+  - Contacter avec le personnel.
+
 ## 2) Pour qui ?
-    - Création pour l'IMIE.
-    - Tout type d'entreprise.
-    - Etablissement scolaire.
-    
+  - CrÃ©ation pour l'IMIE.
+  - Tout type d'entreprise.
+  - Etablissement scolaire.
+
 ## 3) Pourquoi ?
-    - Le fait d'être mobile fait gagner du temps sur la gestion de son planning qui est lié à l'entreprise.
-    - Eviter le problème des salles déjà prise.
-    - Afficher la présence des élèves.
-    - Meilleur visuel sur l'avancée des projets avec une barre de progression, voir les projets de la TO DO LIST.
-    - Contact dans le personnel avec disponibilités "Online ; Offline".
+  - Le fait d'Ãªtre mobile fait gagner du temps sur la gestion de son planning qui est liÃ©e Ã  l'entreprise.
+  - Eviter le problÃ¨me des salles dÃ©jÃ  prise.
+  - Afficher la prÃ©sence des Ã©lÃ¨ves.
+  - Meilleur visuel sur l'avancÃ©e des projets avec une barre de progression, voir les projets de la TO DO LIST.
+  - Contact dans le personnel avec disponibilitÃ©s "Online ; Offline".
 
-## Limites et problèmes :
-    - Adapter Androïd et IOS.
-    - Stockage des données.
-    - Ergonomie, limiter la charge sur l’interface.
-    - Donner des identifiants, pas de création de pseudos.
+## Limites et problÃ¨mes (difficultÃ©s prÃ©vues) :
+  - Adapter Android et IOS.
+  - Stockage des donnÃ©es.
+  - Ergonomie, limiter la charge sur l'interface.
+  - Donner des identifiants, pas de crÃ©ation de pseudos.
+  - Faire le lien selon l'IMIE sÃ©lectionnÃ©.
+  - Changer le planning via le mobile.
+  - Remplacer les disponibilitÃ©s.
+  - Remplacement des personnes.
+  - Modifier et accÃ©der aux TO DO LIST.
+  - Messages en temps rÃ©el sur l'onglet contact.
+  - Donner des identifiants que l'IMIE pourrait gÃ©nÃ©rer (Ã©vite les utilisateurs avec pseudo louches).
 
-## Technologie utilisée :
-    - PHP (fonctionne avec une base de données), HTML, CSS.
-    - SQL (base de données).
-    - Pencil Project pour le Design de l'application.
+## Technologies utilisÃ©es :
+  - PHP (fonctionne avec une base de donnÃ©es), HTML, CSS.
+  - MySQL (base de donnÃ©es).
+  - Pencil Project pour le Design de l'application.
 
-## Accueil
+## Charte graphique
 
-L'interface de l'accueil reprend le code couleur des campus de l'IMIE. Il suffit de toucher l'onglet de son campus pour passer aux identifiants (donnés par l'IMIE).
+  - Sobre, sans excÃ¨s.
+  - Onglets assez gros.
+  - Couleurs de l'IMIE.
+  - (- Alternatif : Couleurs Noir, Blanc, Gris)
 
-## To do list
+## FonctionnalitÃ©s
 
-La création de deux To Do List permettra aux formateurs de lister les tâches à faire, en cours 
-(avec une barre de pourcentage pour indiquer l'avancée) et terminées.
+### Accueil
+
+L'interface de l'accueil reprend le code couleur des campus de l'IMIE. Il suffit de toucher l'onglet de son campus pour passer aux identifiants (donnÃ©s par l'IMIE).
+
+### To do list
+
+La crÃ©ation de deux To Do List permettra aux formateurs de lister les tÃ¢ches Ã  faire, en cours
+(avec une barre de pourcentage pour indiquer l'avancÃ©e) et terminÃ©es.
 
 Cette To Do List ne sera pas visibles par les apprenants.
-La même chose sera donc effectuée pour les apprenants, la différence notable est que les formateurs pourront voir les avancées.
+La máº¿me chose sera donc effectuÃ©e pour les apprenants, la diffÃ©rence notable est que les formateurs pourront voir les avancÃ©es.
 
-## Le Planning
+### Le Planning
 
-Grâce à l'application, le planning peut être modifié suivant les paramètres suivants : 
-    
-    - Choix de la salle (liste de salles disponibles)
-    - Choix de la date (Entrer une date puis affiche les heures disponible)
+GrÃ¢ce Ã  l'application, le planning peut Ãªtre modifiÃ© suivant les paramÃªtres suivants :
 
-## Contact
+  - Choix de la salle (liste de salles disponibles)
+  - Choix de la date (Entrer une date puis affiche les heures disponible)
 
-    - Le profil de la personne visitée sera «online» sinon il sera «offline». 
-    - Un apprenant, qui aura un compte utilisateur (donc visible par le formateur), pourra envoyer un message.
+### Contact
 
-## Appel
+  - Le profil de la personne visitÃ©e sera "online" sinon il sera "offline".
+  - Un apprenant, qui aura un compte utilisateur (donc visible par le formateur), pourra envoyer un message.
 
-    - Liste des élèves de la classe
-    - Afficher les présences
-    - Envoie de la liste
+### Appel
+
+  - Liste des Ã©lÃ¨ves de la classe
+  - Afficher les prÃ©sences
+  - Envoie de la liste
