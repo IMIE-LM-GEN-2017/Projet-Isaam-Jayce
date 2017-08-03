@@ -1,19 +1,49 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="css/materialize.css">
+		<link rel="stylesheet" href="js/materialize.js">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-	<div class="liste_haut">
-		<p><a href="planning.html"><input type="submit" value="Planning"></a></p>
-		<p><a href="presence.html"><input type="submit" value="Présence"></a></p>
-		<p><a href="contact.html"><input type="submit" value="Contact"></a></p>
+<!--Menu-->
+	<div class="menu-haut">
+	<ul>
+		<a class="waves-effect waves-light btn-large green" href="planning.html">Planning</a>
+		<a class="waves-effect waves-light btn-large blue" href="presence.html">Présence</a>
+		<a class="waves-effect waves-light btn-large purple" href="contact.html">Contact</a>
+		<a class="waves-effect waves-light btn-large black" href="contact.html">Déconnexion</a>
+	</ul>
 	</div>
-			<hr>
-		<label for="monselect">Liste déroulante</label>
-			<select name="select" id="selection">
-				<option value="encours">En cours</option>
-				<option value="termines">Terminés</option>
+	<!--Bandeau-->
+		<nav>
+			<div class="nav-wrapper blue darken-3">
+				<center><h1>To Do List - A faire</h1></center>
+			</div>
+		</nav>
+		<ul>
+			<!--Menu-->
+				<div class="menu-haut">
+				<ul>
+					<a class="waves-effect waves-light btn-large red" href="encours.html">En cours</a>
+					<a class="waves-effect waves-light btn-large green" href="termines.html">Terminés</a>
+				</ul>
+				</div>
+
+<!--TDL / Voir http://materializecss.com/forms.html#select-initialization pour lancer le select-->
+<div class="input-field col s12">
+	<select>
+		<option value="" disabled selected>Résumé du projet</option>
+		<option value="1">Le Projet suivant est une gestionnaire de planning et de projets, le GPP.
+		Il permettra de gérer son planning en réservant des salles tout en indiquant l'activité donnée.
+		De plus, il est possible de contacter les membres de l'entreprise, d'envoyer une liste d'appel/de pointage et
+		d'afficher une To Do List.
+		</option>
+	</select>
+	<label>Projets</label>
+</div>
+
 	</body>
 </html>

@@ -1,178 +1,23 @@
-body {background-color: #C0C0C0; font-family: arial;}
-h1 {text-align:center;}
+body {background-color: #f2f2f2}
 
-.index {text-align: center;
-		margin-top: 150px;
-		display: block;}
+h1 {text-align: center;}
+h2 {text-align: center; padding-top: 50px; padding-bottom: 50px;}
 
-		
-.index li {font-size: 50px; 
-		 text-align: center; 
-		 width: 25%; 
-		 margin: 8px 0px 25px 0px; 
-		 box-sizing: border-box; 
-		 border: 1px solid; 
-		 color: white; 
-		 border-color: black;
-		 display: block; 
-		 list-style-type: none; 
-		 overflow: hidden;
-		 -moz-border-radius:7px; 
-		-webkit-border-radius:7px;
-		border-radius:7px; 
-		box-shadow: 0px 0px 8px black;}
-		 
-.index li a {text-decoration: none; 
-		  color: white; 
-		  text-align: center;
-		  display: block;}
+.i1 {text-align: center; padding-bottom: 25px}
 
-.index li a:active {color: black;}
+.users {padding-top: 15%; display: inline-block;}
+.envoieusers {text-align: center;}
 
-.i1 {background-color: #33CCFF;}
+.m1 {text-align: center; padding-bottom: 30px}
 
-.i2 {background-color: #FF9900;}
+.contact {padding-left: 45%; padding-top: 30px;}
+.c1 {padding-right: 10px;}
 
-.i3 {background-color: #FFCC33;}
+.m2 {text-align: center; padding-bottom: 30px; padding-top: 10%}
 
-.i4 {background-color: #33CC00;}
+.menu-haut {text-align: center; padding-left: 1%}
+.menu-hauttdl {text-align: center; padding-left: 1%; padding-bottom: 20px; padding-top: 11%}
 
-.i5 {background-color: #FF0000;}
-
-.i6 {background-color: #33CCFF;}
-
-.i7 {background-color: #FFCC33;}
-
-.users {text-align: center; 
-		margin-top: 50vh;
-		transform: translateY(-50%);
-		font-size: 25px;
-		text-decoration: none;
-		overflow: hidden;
-		list-style-type: none;
-		color: black; 
-		background-color: white; 
-		-moz-border-radius:7px; 
-		-webkit-border-radius:7px;
-		border-radius:7px; 
-		box-shadow: 0px 0px 8px black; 
-		width: 20%;}
-		
-	.bouton {display:block;
-		width: 100%;
-		padding: 15px;
-		font-size:1.2em;
-		border-top-left-radius:0;
-		border-top-right-radius:0;
-		border:1px solid grey;
-		border-width: 1px 0 0 0;
-		background-color: #006600;
-		color: white;
-		margin-top: 10px}
-			
-.menu {text-align: center;
-		margin-top: 300px;
-		display: block;}
-
-		
-.menu li {font-size: 50px; 
-		 text-align: center; 
-		 width: 25%; 
-		 margin: 8px 0px 25px 0px; 
-		 box-sizing: border-box; 
-		 border: 1px solid; 
-		 color: white; 
-		 border-color: black;
-		 display: block; 
-		 list-style-type: none; 
-		 overflow: hidden;
-		 -moz-border-radius:7px; 
-		-webkit-border-radius:7px;
-		border-radius:7px; 
-		box-shadow: 0px 0px 8px black;}
-		 
-.menu li a {text-decoration: none; 
-		  color: white; 
-		  text-align: center;
-		  display: block;}
-
-.menu li a:active {color: black;}
-
-.m1 {background-color: red;}
-
-.m2 {background-color: blue;}
-
-.m3 {background-color: purple;}
-
-.m4 {background-color: green;}
-
-.liste_haut {text-align: center;
-		margin-top: 10px;
-		display: block;}
-	
-	.liste_haut li {font-size: 20px; 
-		text-align: center; 
-		width: 20%; 
-		margin: 8px 0px 25px 0px; 
-		box-sizing: border-box; 
-		border: 1px solid; 
-		color: white; 
-		border-color: black;
-		display: block; 
-		list-style-type: none; 
-		overflow: hidden;
-		-moz-border-radius:7px; 
-		-webkit-border-radius:7px;
-		border-radius:7px; 
-		box-shadow: 0px 0px 8px black;}
-		 
-	.liste_haut li a {text-decoration: none; 
-		color: white; 
-		text-align: center;
-		display: block;
-		height: 40px}
-
-	.liste_haut li a:active {color: black;}
-
-.check {font-size: 20px; 
-	text-align: center; 
-	width: 30%; 
-	margin: 8px 0px 25px 0px; 
-	box-sizing: border-box; 
-	border: 1px solid; 
-	color: black;
-	background-color: white;
-	border-color: black;
-	display: block; 
-	list-style-type: none; 
-	overflow: hidden;
-	-moz-border-radius:7px; 
-	-webkit-border-radius:7px;
-	border-radius:7px; 
-	box-shadow: 0px 0px 8px black;}
-	
-.bp {display:block;
-	width: 10%;
-	padding: 15px;
-	font-size:1.2em;
-	border-top-left-radius:0;
-	border-top-right-radius:0;
-	border:1px solid grey;
-	border-width: 1px 0 0 0;
-	background-color: #990000;
-	color: white;
-	margin-top: 10px}
-	
-.tdl {background-color: green; display: block}
-
-.planning {background-color: blue; display: block}
-
-.contact {background-color: red; display: block}
-
-.presence {background-color: orange; display: block}
-
-.encours {}
-
-.contact {}
-
-.afaire {}
+.check {display: inline-block;
+	background-color: #ffffff;
+ 	padding: 50px 50px 130px 50px}

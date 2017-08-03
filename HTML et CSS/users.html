@@ -1,20 +1,36 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/materialize.css">
+    		<link rel="stylesheet" href="js/materialize.js">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-    <center><div class="users">
-        <p>Identifiant :</p>
-            <form action="menu.html" method="GET">
-                <label for="écrire"></label>
-                <input type="text" id="id">
-        <p>Password :</p>
-                <label for="pass"></label>
-                <input type="text" id="pass">
-            <li><input type="submit" value="Envoyer" class="bouton"><a href="menu.html"></a></li>
-    </center></div>
+<!--ID--><center>
+      <div class="users">
+      <div class="col s12">
+       <form class="col s12">
+             <div class="input-field col s12">
+               <input id="identifiant" type="text" class="validate" placeholder="Identifiant">
+             </div>
+           </div>
+<!--Pass-->
+          <div class="col s12">
+             <div class="input-field col s12">
+               <input id="password" type="password" class="validate" placeholder="Password">
+               <label for="password"></label>
+             </div>
+           </div>
+         </form>
+         </div>
+<!--Bouton envoyer-->
+      <div class="envoieusers">
+       <a href="menu.html">
+         <button class="btn waves-effect waves-light green" type="submit" name="action">Envoyer</button>
+       </a>
+     </div>
+   </div>
     </body>
 </html>
-
