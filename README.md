@@ -108,3 +108,11 @@ If you want to use Mysql Workbench, create a new connection with these settings:
 
 ## Notes
 You can edit `puphpet/config.yml` to change and tweak your box.
+
+# Database:
+
+A database creation script is available in `BDD/db.sql`. you can execute it in the vagrant environment like:
+
+```bash
+mysql -p --database vagrant < BDD/db.sql
+```
